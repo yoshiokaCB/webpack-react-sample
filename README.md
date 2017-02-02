@@ -18,11 +18,19 @@ $ cd webpack-react-sample
 
 # 必要モジュールのインストール
 $ npm install
+
 # タスクランナー起動
 $ webpack -d --watch
 ```
 
 上記作業後、 `public/index.html` をブラウザで開く
 
+もしくはwebサーバを起動する。
+```
+$ cd public
+$ python -m SimpleHTTPServer 8080
+```
+起動後、 `localhost:8080` にブラウザからアクセスする。
 
-あとは `scr/app.js` を変更してReact.jsを色々と書いてみる。
+
+あとは `src/app.js` を変更してReact.jsを色々と書いてみる。
